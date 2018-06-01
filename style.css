@@ -1,0 +1,72 @@
+h1
+{
+	color: black;
+	font-size: 32px;
+	font-family: Arial;
+}
+
+h4
+{
+	color: grey;
+  font-family: Arial;
+}
+
+body {
+background-color:white;
+background-image:url(/home/philippe/Documents/imagefond.jpg);
+background-repeat: no-repeat;
+background-position: 50% 50%;
+background-size: cover;
+margin: 4%;
+}
+
+body {
+  background: linear-gradient(
+      rgba(0, 0, 0, 0.30), 
+      rgba(0, 0, 0, 0.30)
+    ),url(/home/philippe/Documents/imagefond.jpg);
+  background-size:cover;
+  background-repeat:no-repeat;
+  background-position: 50% 50%;
+}
+
+ul {
+  list-style-type: none;
+  font-family: Arial;
+  font-weight: bold;
+}
+
+ul li:before {
+  content: "\2022";
+  margin-right: 10px;
+  color: white;
+}
+
+ul li {
+  color: grey;
+  display: inline;
+}
+
+.cadres {
+  background-color: white;
+  border: 1px dotted white;
+  border-radius: 10px;
+  margin-left: 15%;
+  margin-right: auto;
+  width: 30%;
+  padding-left:2%;
+}
+
+.logo {
+  margin-left: 1%;
+  margin-top: 1%;
+}
+
+ul li .bouton {
+  background-color: #ff5a5f;
+  border-radius: 5px;
+  margin-left: auto;
+  width: 80%;
+  font-family: Arial;
+  margin-bottom: 15%;
+}
